@@ -23,16 +23,17 @@
 * **未来预测**：模型预测《速度与激情 11》全球合并票房约为 **$1429.08M**。
 
 #### 🛠️ 技术栈
-* **数据处理**：Power Query (M 语言), Python (Pandas/NumPy)
-* **可视化**：Power BI Desktop (DAX 建模), Matplotlib
+* **数据处理**：SQL, Python (Pandas/NumPy)
+* **可视化**：Power BI Desktop , Matplotlib
 * **机器学习**：Scikit-learn, XGBoost
-* **数据抓取**：`bilibili-api`
+* **数据抓取**：`bilibili-api`、`jieba`
 
 #### 📂 文件说明
 * `SQL`: 包含所用到的表的创建及数据整理。
 * `powerbi table.pbix`: 完整的 Power BI 交互式报表源文件。
 * `python代码`: 包含数据预处理、模型训练及预测逻辑的 Jupyter Notebook。
 * `data`: 经过清洗后的系列电影特征数据集。
+* `速度与激情票房预测`: 利用机器学习中的xgboost方法对速度与激情票房11进行预测
 * `速度与激情报告`: 导出的 HTML/RMD 版本详细研究报告。
 
 #### 📈 结论摘要
